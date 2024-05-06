@@ -2,7 +2,7 @@ import Enjoy from '@/components/enjoy/Enjoy';
 import Footer from '@/components/footer/Footer';
 import Graphic from '@/components/graphic/Graphic';
 import Header from '@/components/header/Header';
-import Hero from '@/components/hero/hero';
+import Hero from './../components/hero/hero';
 import Prefooter from '@/components/prefooter/Prefooter';
 import SpeedUp from '@/components/speedUp/SpeedUp';
 import Team from '@/components/team/Team';
