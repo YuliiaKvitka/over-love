@@ -7,7 +7,7 @@ import IconBlack1x from './../../../public/assets/btn/icon-black@1x.png'
 import Image from 'next/image';
 import Right from './../../../public/assets/btn/right.png'
 import Left from './../../../public/assets/btn/left.png'
-import slideData from '/public/data/sliderData.js'; // Импорт данных слайдов
+import slideData from './public/data/sliderData.js'; // Импорт данных слайдов
 // # Установите необходимые зависимости, если используете styled-components
 // npm install styled-components
 
