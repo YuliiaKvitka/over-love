@@ -1,0 +1,103 @@
+.section {
+   
+    width: 1920px;
+    height: 1514px;
+    background-image: image-set(url("./../../../public/assets/hero/bg-top@1x.jpeg") type("image/jpeg") 1x, url("./../../../public/assets/hero/bg-top@2x.jpeg") type("image/jpeg") 2x);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 250px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
+}
+.wrapperContent {
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    width: 1504px;
+    height: 523px;
+    display: flex;
+    justify-content: space-between;
+}
+.columnLeft{
+    width: 880px;
+}
+.title {
+    font-family: Poppins, sans-serif;
+    color: var(--brand-font-light);
+    font-size: 106px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.bodyText {
+    width: 678px;
+    font-family: Poppins, sans-serif;
+    color: rgb(206, 255, 253);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 72px;
+}
+/* ----------- */
+.wrapperHow {
+    
+    width: 1504px;
+    height: 430px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+.titleHow {
+    color: rgb(244, 244, 244);
+    font-family: Poppins, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 90px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+.item {
+width: 480px;
+height: 308px;
+border-radius: 16px;
+backdrop-filter: blur(24px);
+/* Project Molec / Fill */
+background: rgba(255, 255, 255, 0.5);
+padding: 32px;
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+.item h3 {
+color: rgb(244, 244, 244);
+font-family: Poppins, sans-serif;
+font-size: 40px;
+font-weight: 400;
+line-height: 60px;
+letter-spacing: 0.25px;
+text-align: left;
+
+
+}
+.item p {
+color: rgb(206, 255, 253);
+font-family: Poppins,sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.1px;
+text-align: left;
+}
+
+.img {
+    margin-bottom: 16px;
+}

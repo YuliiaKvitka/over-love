@@ -1,0 +1,48 @@
+/* components/Slider.module.css */
+.sliderContainer {
+  overflow-x: hidden; /* Убираем стандартные полосы прокрутки */
+  overflow-y: hidden; /* Исключаем вертикальную прокрутку */
+  white-space: nowrap; /* Слайды располагаются в одну строку */
+  position: relative;
+}
+
+
+.slider {
+  display: inline-flex; /* Слайды остаются в одной строке */
+  transition: transform 0.3s ease-in-out; /* Плавное перемещение */
+}
+
+.slide {
+  flex: 0 0 344px; /* Ширина слайда */
+  height: 380px; /* Высота слайда */
+  text-align: center;
+  margin-right: 40px;
+
+}
+
+.slideImage {
+  width: 344px; /* Ширина изображения */
+  height: 380px; /* Высота изображения */
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+   border-radius: 20.32px;
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Полоса прокрутки с индикатором */
+.scrollBar {
+  width: 100%; /* Полоса по ширине контейнера */
+  height: 8px; /* Высота полосы */
+  background-color: rgb(249, 252, 255);; /* Цвет фона полосы */
+  position: relative; /* Для правильного позиционирования индикатора */
+  top: 33px;
+}
+
+.scrollIndicator {
+  width: 50px;
+  height: 8px; /* Высота индикатора */
+  background-color: rgb(255, 215, 3);; /* Цвет индикатора */
+  border-radius: 4px;
+  position: absolute; /* Позиционирование */
+  transition: left 0.3s ease-in-out; /* Плавное перемещение */
+}

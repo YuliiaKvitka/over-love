@@ -1,0 +1,100 @@
+.footer {
+    width: 1920px;height: 315px;
+    background-color: var(--brand-bg-footer);
+    padding: 40px 208px;
+}
+.wrapper {
+    width: 1504px;
+    height: 235px;
+    margin: 0 auto;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.boxLeft {
+    width: 1010px;
+    height: 152px;
+    display: flex;
+    justify-content: space-between;
+}
+.boxRight {
+    width: 494px;
+    height: 152px;
+    margin-left: 50px;
+}
+.action {
+    color: rgb(206, 255, 253);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: left;
+    margin-top:-16px!important;
+}
+.name {
+    color: rgb(255, 255, 255);
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left; 
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+.hr {
+    background: rgb(229, 237, 245);
+    opacity: 0.2;
+    width: 1504px;
+    height: 1px;
+    margin-bottom: 32px;
+}
+.boxBottom {
+    width: 1504px;
+    height: 18px;
+}
+.listBottom {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    height: 18px;
+}
+.itemBottom {
+    color: rgb(56, 183, 175);
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.capital {
+    color: rgb(244, 244, 244);
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.item {
+    color: rgb(56, 183, 175);
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    text-transform: uppercase;
+}

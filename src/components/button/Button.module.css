@@ -1,0 +1,25 @@
+/* .btn {
+    position: relative;
+    box-sizing: border-box;
+    Project Main/Accent
+    border: 2px solid var(--brand-bg-btn);
+    border-radius: 100px;
+    width: 166px;
+    height: 48px;
+    color: var(--brand-bg-btn);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 12px 40px 12px 40px;
+} */
+/* .btn::after {
+    content:image-set(url('./../../../public/assets/btn/Icon@1x.png') type("image/png") 1x, url('./../../../public/assets/btn/Icon@2x.png') type("image/png") 2x);
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 30px;
+    top: 12px;
+} */
