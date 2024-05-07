@@ -24,20 +24,20 @@ const Team = () => {
         <div className={styles.blockTeam}>
 
           <div className={styles.team}>
-            <Image className={styles.img} src={team11x} sercSet={team12x} alt='' />
+            <Image className={styles.img} src={team11x} srcSet={team12x} alt='' />
             <TeamCardContact  name='Pieter Omvlee' job='Designer' hrefIg='inctagram.com' hrefTg='telegram.com' hrefIn='linkedln.com'/>
           </div>
 
           <div className={styles.team}>
-            <Image className={styles.img} src={team21x} sercSet={team22x} alt='' /><TeamCardContact name='Loyd Maywe' job='Php developer' hrefIg='inctagram.com' hrefTg='telegram.com' hrefIn='linkedln.com' />
+            <Image className={styles.img} src={team21x} srcSet={team22x} alt='' /><TeamCardContact name='Loyd Maywe' job='Php developer' hrefIg='inctagram.com' hrefTg='telegram.com' hrefIn='linkedln.com' />
           </div>
 
           <div className={styles.team}>
-            <Image className={styles.img} src={team31x} sercSet={team32x} alt='' /><TeamCardContact name='Latte Macchiato' job='CEO Company' hrefIg='inctagram.com' hrefTg='telegram.com' hrefIn='linkedln.com' />
+            <Image className={styles.img} src={team31x} srcSet={team32x} alt='' /><TeamCardContact name='Latte Macchiato' job='CEO Company' hrefIg='inctagram.com' hrefTg='telegram.com' hrefIn='linkedln.com' />
           </div>
 
           <div className={styles.team}>
-            <Image className={styles.img} src={team41x} sercSet={team42x} alt='' /><TeamCardContact name='Cheese Cake' job='Art Director' hrefIg='inctagram.com' hrefTg='telegram.com' hrefIn='linkedln.com' />
+            <Image className={styles.img} src={team41x} srcSet={team42x} alt='' /><TeamCardContact name='Cheese Cake' job='Art Director' hrefIg='inctagram.com' hrefTg='telegram.com' hrefIn='linkedln.com' />
           </div>
 
         </div>
