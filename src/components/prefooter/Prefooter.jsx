@@ -20,9 +20,9 @@ const Prefooter = () => {
             <Form backgroundColor='rgb(255, 215, 3)' color='rgb(44, 44, 44)' src={IconBlack1x}/>
           </div>
           <div className={styles.social}>
-            <Image src={icon11x}srcSet={icon12x} alt=''/>
-            <Image src={icon21x}srcSet={icon22x} alt=''/>
-            <Image src={icon31x}srcSet={icon32x} alt=''/>
+            <Image src={icon11x} srcSet={icon12x} alt=''/>
+            <Image src={icon21x} srcSet={icon22x} alt=''/>
+            <Image src={icon31x} srcSet={icon32x} alt=''/>
           </div>
               </div>
               </div>
